@@ -49,6 +49,7 @@ struct ContentView: View {
             
             Rectangle()
                 .fill(Color.blue)
+                .cornerRadius(20)
         }
         .padding()
     }
