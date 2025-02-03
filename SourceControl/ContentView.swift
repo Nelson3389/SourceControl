@@ -13,11 +13,12 @@ struct ContentView: View {
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
-            Text("I <3 iOS development!")
+            Text("iOS Development")
             
-            Button("Click me!") {
+            Button("Subscribe!") {
                 
             }
+            Rectangle()
         }
         .padding()
         .padding()
