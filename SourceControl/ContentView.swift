@@ -46,9 +46,10 @@ struct ContentView: View {
             Button("Subscribe now!") {
                 
             }
+            
             Rectangle()
+                .fill(Color.blue)
         }
-        .padding()
         .padding()
     }
 }
