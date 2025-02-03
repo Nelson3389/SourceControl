@@ -15,7 +15,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("iOS Development")
             
-            Button("Subscribe!") {
+            Button("Subscribe now!") {
                 
             }
             Rectangle()
