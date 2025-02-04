@@ -44,8 +44,11 @@ struct ContentView: View {
             Text("iOS Development")
             
             Button("Subscribe now!") {
-                
             }
+            
+            ProgressView(value: 0.5)
+                .progressViewStyle(LinearProgressViewStyle(tint: .blue))
+                .padding()
             
             Rectangle()
                 .fill(Color.blue)
