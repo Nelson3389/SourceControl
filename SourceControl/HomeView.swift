@@ -12,10 +12,15 @@ struct HomeView: View {
     
     var body: some View {
         VStack {
-            Text("Welcome!")
-            Text("Screen 1!")
+            Text("Hi")
+            Text("Screen 2!")
+            
             Text("Screen 2!")
             Text("Screen 3!")
+            
+        }
+        .onAppear {
+            // Send analytics
         }
     }
 }
